@@ -31,7 +31,6 @@
   zlib,
   zstd,
   gamemode,
-  unzip,
 }: let
   inherit
     (qt6)
@@ -57,7 +56,6 @@ in
       wrapQtAppsHook
       glslang
       qttools
-      unzip
     ];
 
     buildInputs = [
@@ -106,15 +104,15 @@ in
         --replace-fail "target_link_libraries(citron PRIVATE Boost::headers" \
                        "target_link_libraries(citron PRIVATE Boost::headers Qt6::GuiPrivate"
 
-      # Extract pre-downloaded timezone data to source directory
-      mkdir -p externals/nx_tzdb/
-      unzip -o ${nx-tzdb} -d externals/nx_tzdb/
+      # Copy pre-downloaded timezone data (already unpacked by Nix)
+      mkdir -p externals/nx_tzdb/nx_tzdb
+      cp -r ${nx-tzdb}/* externals/nx_tzdb/nx_tzdb/
     '';
 
     # Copy timezone data to build directory where cmake expects it
     preConfigure = ''
-      mkdir -p build/externals/nx_tzdb/nx_tzdb
-      cp -r externals/nx_tzdb/* build/externals/nx_tzdb/nx_tzdb/
+      mkdir -p build/externals/nx_tzdb
+      cp -r externals/nx_tzdb/* build/externals/nx_tzdb/
     '';
 
     cmakeFlags = [

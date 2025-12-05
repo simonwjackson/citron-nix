@@ -5,7 +5,7 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
     citron-src = {
-      url = "git+https://git.citron-emu.org/Citron/Emulator.git?rev=4491abcdcee2a92fe3520db29f5b652006890ecd&submodules=1";
+      url = "git+https://git.citron-emu.org/Citron/Emulator.git?submodules=1";
       flake = false;
     };
 
