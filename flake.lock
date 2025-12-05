@@ -37,7 +37,7 @@
     "nx-tzdb": {
       "flake": false,
       "locked": {
-        "lastModified": 1697078172,
+        "lastModified": 1697056572,
         "narHash": "sha256-YOIElcKTiclem05trZsA3YJReozu/ex7jJAKD6nAMwc=",
         "type": "tarball",
         "url": "https://github.com/lat9nq/tzdb_to_nx/releases/download/221202/221202.zip"
