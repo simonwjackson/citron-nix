@@ -1,4 +1,4 @@
-# citron-nix
+# citron.nix
 
 Nix flake for [Citron](https://citron-emu.org), a Nintendo Switch emulator forked from yuzu.
 
@@ -7,7 +7,7 @@ Nix flake for [Citron](https://citron-emu.org), a Nintendo Switch emulator forke
 ### Run directly
 
 ```bash
-nix run github:simonwjackson/citron-nix
+nix run github:simonwjackson/citron.nix
 ```
 
 ### Add to flake inputs
@@ -16,7 +16,7 @@ nix run github:simonwjackson/citron-nix
 {
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    citron.url = "github:simonwjackson/citron-nix";
+    citron.url = "github:simonwjackson/citron.nix";
   };
 
   outputs = { nixpkgs, citron, ... }: {
@@ -36,13 +36,9 @@ nix run github:simonwjackson/citron-nix
 ### Build locally
 
 ```bash
-nix build github:simonwjackson/citron-nix
+nix build github:simonwjackson/citron.nix
 ./result/bin/citron
 ```
-
-## Version
-
-Current version: **0.11.0**
 
 ## License
 
