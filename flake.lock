@@ -3,11 +3,11 @@
     "citron-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1766899921,
-        "narHash": "sha256-R5URAssg1DQ5XXGDls0jDI/2XbGdY/QAsnRSg5l/gts=",
+        "lastModified": 1766971639,
+        "narHash": "sha256-wDZqfOxVLIxlXo6sjpR/0cAZ5wwuUNNfxem4LtakFIY=",
         "ref": "refs/heads/main",
-        "rev": "c5f35b071267f8470478c2e6f9713ce91e8fa171",
-        "revCount": 27866,
+        "rev": "de02349e6726e7be50cc696ca9a991a6cc086795",
+        "revCount": 27876,
         "submodules": true,
         "type": "git",
         "url": "https://git.citron-emu.org/Citron/Emulator.git"
@@ -20,11 +20,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1766651565,
-        "narHash": "sha256-QEhk0eXgyIqTpJ/ehZKg9IKS7EtlWxF3N7DXy42zPfU=",
+        "lastModified": 1766902085,
+        "narHash": "sha256-coBu0ONtFzlwwVBzmjacUQwj3G+lybcZ1oeNSQkgC0M=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "3e2499d5539c16d0d173ba53552a4ff8547f4539",
+        "rev": "c0b0e0fddf73fd517c3471e546c0df87a42d53f4",
         "type": "github"
       },
       "original": {
