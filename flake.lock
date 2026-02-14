@@ -3,11 +3,11 @@
     "citron-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1770871108,
-        "narHash": "sha256-iWgGnv9fGCNTLql4zXFNBRzR7bJt3drMezWvNaDZqk4=",
+        "lastModified": 1771035626,
+        "narHash": "sha256-b1gjHud1eZG44ItPCZzpFLPQy+5lrcTVflwMh+HUbbY=",
         "ref": "refs/heads/main",
-        "rev": "813fe64c0cedbcd0669d2be65dd3f79c937afb40",
-        "revCount": 28175,
+        "rev": "4af75b75445b72853217a9d2e89154bdd8f0d741",
+        "revCount": 28181,
         "submodules": true,
         "type": "git",
         "url": "https://git.citron-emu.org/Citron/Emulator.git"
